@@ -22,7 +22,8 @@ x = $\math\rand\out
 By setting the variables before we run the command, and grabbing the result after, we can get the power of functions in an ini.
 
 We should follow this format for a consistent user experience.
-- descriptive namespace bindings `$\namespace\var` and `run = commandlist\namespace\run`
+- descriptive namespace for bindings `$\namespace\var` and `run = commandlist\namespace\run`
+- Description of the return and inputs as needed.
 - `[CommandListRun]` to envoke the primary function.
 - `$out` value as the primary return.
 - reset `in` inputs to appropriate values.
@@ -33,6 +34,16 @@ You can also envoke them in eachother, which should help build a more robust too
 
 ```ini
 namespace = math\function
+
+; ---------------------------DESCRIPTION---
+; Returns a Float value or NaN
+; returns second tetration
+;
+; -------------------------------EXAMPLE---
+; $\math\function\in = 5
+; run = commandlist\math\function\run
+; x = $\math\function\out
+; ; x will be 3125
 
 [Constants]
 ;$\math\function\in
