@@ -52,8 +52,8 @@ $in = 0
 ```
 
 ## Sources
-[Cosine Implementaion (modified Taylor Series)](https://github-wiki-see.page/m/gehrigwilcox/C-Standard-Library/wiki/cos_)
-[Random Implementaion insperation](https://stackoverflow.com/a/10625698)
+- [Cosine Implementaion (modified Taylor Series)](https://github-wiki-see.page/m/gehrigwilcox/C-Standard-Library/wiki/cos_)
+- [Random Implementaion insperation](https://stackoverflow.com/a/10625698)
 
 ## Thanks
 As usual thanks to Chiri, bo3b, DarkstarSword, and Silent for 3dmigoto and GIMI/SRMI
