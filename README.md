@@ -1,8 +1,8 @@
 # Math Library for 3dmigoto
 
-This is the first release of my math library for 3dmigoto.
-This tool is trying to tackle some of the challenges of doing math inside of 3dmigoto mod inis.
-As of now, only Cos and Rand are implemented. See [Methodology](#Methodology) for contribution guidelines.
+This is the first release of my math library for 3dmigoto. This tool is trying to tackle some of the challenges of doing math inside of 3dmigoto mod inis.
+
+See [Methodology](#Methodology) for contribution guidelines.
 ```ini
 $\math\cos\in = 40
 run = commandlist\math\cos\run
